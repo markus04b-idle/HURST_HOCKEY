@@ -10,6 +10,7 @@ BASE = 'https://hurstathletics.com'
 
 def clean(s):
     return htmlmod.unescape(s).strip()
+    
 
 def parse_with_bs4(content):
     from bs4 import BeautifulSoup
